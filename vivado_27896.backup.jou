@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Thu Apr 27 23:05:58 2017
+# Process ID: 3888
+# Log file: C:/Users/Administrator/Desktop/project_3-2/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/project_3-2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Administrator\Desktop\project_3-2\project_3.xpr}
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+add_files -norecurse C:/Users/Administrator/Desktop/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/constants.v
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav2.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav3.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav4.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav5.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run 10 us
+run 10 us
+run 10 us
+launch_xsim -simset sim_1 -mode behavioral
+run 30 us
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+run 30 us
+run 30 us
+run 30 us
+run 30 us
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+run 30 us
+run 30 us
+run 30 us
+run 30 us
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav1.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav2.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run 30 us
+run 30 us
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav3.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav1.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav2.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav3.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+launch_xsim -simset sim_1 -mode behavioral
+run all
+save_wave_config {C:\Users\Administrator\Desktop\project_3-2\cpu_tb_behav4.wcfg}
+launch_xsim -simset sim_1 -mode behavioral
+run all

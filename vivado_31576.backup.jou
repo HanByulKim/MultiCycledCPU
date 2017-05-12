@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Fri Apr 28 04:02:25 2017
+# Process ID: 31576
+# Log file: C:/Users/Administrator/Downloads/project_3-2/project_3-2/vivado.log
+# Journal file: C:/Users/Administrator/Downloads/project_3-2/project_3-2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Administrator\Downloads\project_3-2\project_3-2\project_3.xpr}
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+run all
+close_sim

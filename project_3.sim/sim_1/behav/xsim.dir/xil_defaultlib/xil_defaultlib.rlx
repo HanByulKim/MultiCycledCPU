@@ -1,0 +1,18 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sim_1/imports/sim_1/constants.v,1491922652,verilog,,,,,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sim_1/imports/sim_1/cpu_tb.v,1493319514,verilog,,,C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sim_1/imports/sim_1/constants.v,cpu_tb,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/ALU.v,1493398720,verilog,,,,ALU,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/ALUctrl.v,1493398963,verilog,,,,ALUctrl_unit,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Control_unit.v,1493459228,verilog,,,C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/opcodes.v;C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/states.v,Control_unit,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Datapath.v,1493396293,verilog,,,,Datapath,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Register.v,1493318576,verilog,,,,Register,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Rom.v,1493459186,verilog,,,C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/states.v,ROM,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/constants.v,1491922652,verilog,,,,,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/cpu.v,1493289600,verilog,,,C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/opcodes.v;C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/constants.v,cpu,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/memory.v,1491922620,verilog,,,C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/constants.v,memory,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/opcodes.v,1493099112,verilog,,,,,,,,,,,,
+C:/Users/Yeongil/Documents/SNU/vivado/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/states.v,1493458621,verilog,,,,,,,,,,,,

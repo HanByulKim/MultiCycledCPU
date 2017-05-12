@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Fri Apr 28 04:02:25 2017
+# Process ID: 31576
+# Log file: C:/Users/Administrator/Downloads/project_3-2/project_3-2/vivado.log
+# Journal file: C:/Users/Administrator/Downloads/project_3-2/project_3-2\vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+Feature available: Implementation
+Loading parts and site information from C:/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {C:\Users\Administrator\Downloads\project_3-2\project_3-2\project_3.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/project_3' since last save.
+Scanning sources...
+Finished scanning sources
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav --prj C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.sim/sim_1/behav/cpu_tb.prj   work.cpu_tb   work.glbl"
+Vivado Simulator 2013.4
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.4/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav --prj C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.sim/sim_1/behav/cpu_tb.prj work.cpu_tb work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Rom.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Register.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Control_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/ALUctrl.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/ALU.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Datapath.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/memory.v" into library work
+WARNING: [VRFC 10-1315] redeclaration of ansi port data is not allowed [C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/memory.v:11]
+WARNING: [VRFC 10-1315] redeclaration of ansi port inputReady is not allowed [C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/memory.v:13]
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/cpu.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sim_1/imports/sim_1/cpu_tb.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port ALUSrcB [C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Control_unit.v:28]
+WARNING: [VRFC 10-1783] select index 31 into rom is out of bounds [C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Rom.v:45]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Datapath.v" Line 3. Module Datapath doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Control_unit.v" Line 4. Module Control_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Rom.v" Line 2. Module ROM doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Datapath.v" Line 3. Module Datapath doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Control_unit.v" Line 4. Module Control_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sources_1/imports/sources_1/imports/sources_1/Rom.v" Line 2. Module ROM doesn't have a timescale but atleast one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ROM
+Compiling module work.Control_unit
+Compiling module work.ALUctrl_unit
+Compiling module work.Register
+Compiling module work.ALU
+Compiling module work.Datapath
+Compiling module work.cpu
+Compiling module work.memory
+Compiling module work.cpu_tb
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot cpu_tb_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {cpu_tb_behav.log}"
+Vivado Simulator 2013.4
+Time resolution is 1 ps
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 906.035 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 906.035 ; gain = 28.262
+run all
+Clock # 9999
+The testbench is finished. Summarizing...
+All Pass!
+$finish called at time : 1 ms : File "C:/Users/Administrator/Downloads/project_3-2/project_3-2/project_3.srcs/sim_1/imports/sim_1/cpu_tb.v" Line 146
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 04:03:01 2017...
